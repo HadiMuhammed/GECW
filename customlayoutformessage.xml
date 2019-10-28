@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/holo_green_dark"
+    app:cardCornerRadius="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_green_light">
+
+        <TextView
+            android:id="@+id/phonenumberInTheList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000000000"
+            ></TextView>
+        <TextView
+            android:id="@+id/usernameInTheList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin :"
+            android:layout_margin="1dp"
+            ></TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/messageInTheList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="Use This App Responsibily"
+                ></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
